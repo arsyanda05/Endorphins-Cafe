@@ -1,0 +1,58 @@
+body{
+    background-color: #f8ede3;
+}
+.Logo{
+    height: 65px !important;
+    width: auto !important;
+}
+.navbar{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+.nav-item{
+    margin-left: 15px;
+    font-family: poppins;
+}
+.navbar-brand{
+    font-family: poppins;
+    font-weight: bold;
+    color: white !important;
+}
+h1{
+    font-family: poppins;
+    font-weight: bolder;
+    color: #a76b32;
+}
+p{
+    font-family: poppins;
+    color: #c6874c;
+    text-align: justify;
+}
+.btn{
+    background-color:#c7a17a !important ;
+    color: white !important;
+    font-family: poppins;
+}
+h2{
+    font-family : poppins;
+    text-align: center;
+    color: #a76b32;
+    font-weight: bold;
+}
+h3{
+    font-family: poppins;
+    color: #9a5311;
+    font-weight: bold;
+}
+h5{
+    font-family: poppins;
+    color: #9a5311;
+}
+.card{
+    width: 18rem;
+    height: 27rem !important;
+}
+.card-img-top{
+    height: 200px !important;
+    object-fit: cover !important;
+}
