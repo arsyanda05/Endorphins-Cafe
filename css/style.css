@@ -50,9 +50,20 @@ h5{
 }
 .card{
     width: 18rem;
-    height: 23rem !important;
 }
 .card-img-top{
     height: 200px !important;
     object-fit: cover !important;
+}
+.card-body p {
+    font-size: 14px;
+    text-align: justify;
+}
+.form-control{
+    font-family: poppins;
+}
+.form-label{
+    font-family: poppins;
+    color: #c6874c;
+    font-weight: bold;
 }
