@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Endorphins Cafe</title>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+<nav class="navbar navbar-expand-lg " style="background-color: #c7a17a;">
+  <div class="container">
+    <a class="navbar-brand" href="#" >
+      <img src="img/LogoEndorphins.png" alt="Logo Endorphins" class="Logo"> Endorphins Cafe
+    </a>
+    <ul class="nav nav-underline">
+    <li class="nav-item"><a class="nav-link text-white" href="Home.html">HOME</a></li>
+    <li class="nav-item"><a class="nav-link text-white" href="Menu.html">MENU</a></li>
+    <li class="nav-item"><a class="nav-link text-white" href="Order.html">ORDER</a></li>
+    <li class="nav-item"><a class="nav-link text-white" href="Contact.html">CONTACT</a></li>
+    <li class="nav-item"><a class="nav-link text-white" href="About.html">ABOUT US</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-order">
+  <h2 style="margin-top: 20px;"> Order Form</h2>
+  <div class="deliveryorder-section">
+    <div class="mb-3 text-center">
+      <label class="form-label">Pilih Metode Order</label><br>
+      <button type="button" class="btn btn-delivery" onclick="pilihMetodeOrder('delivery')">Delivery</button>
+      <button type="button" class="btn btn-dinein" onclick="pilihMetodeOrder('dinein')">Dine In</button>
+    </div>
+    <form id="OrderForm">
+      <div class="mb-3">
+         <label for="nama" class="form-label">Nama Lengkap</label>
+         <input type="text" class="form-control" id="nama"placeholder="Masukkan nama lengkap anda" required>
+      </div>
+
+      <div class="mb-3">
+         <label for="menu" class="form-label">Menu yang Dipesan</label>
+         <input type="text" class="form-control" id="menu"placeholder="Masukkan menu yang anda pesan"required>
+      </div>
+
+      <div class="mb-3">
+         <label for="jumlah" class="form-label">Jumlah</label>
+         <input type="number" class="form-control" id="jumlah" min="1" value= "1 "placeholder="Masukkan jumlah menu yang anda pesan"required>
+      </div>
+
+      <div id="bag-delivery" style="display: none;">
+         <label for="lokasi" class="form-label">Alamat</label>
+         <input type="text" class="form-control" id="lokasi"placeholder="Masukkan alamat anda" >
+      </div>
+
+      <div class="mb-3">
+         <label for="transaksi" class="form-label">Metode Pembayaran</label>
+         <select class="form-select" id="transaksi" required>
+          <option value="">Pilih Metode Pembayaran</option>
+          <option value="COD">COD (Cash On Delivery)</option>
+          <option value="Transfer">Transfer Bank</option>
+          <option value="E-wallet">E-wallet (Dana, OVO, GoPay, ShopeePay)</option>
+         </select>
+      </div>
+      
+      <div id="bag-dinein" style="display: none;">
+         <label for="nomormeja" class="form-label">Nomor Meja</label>
+         <input type="number" class="form-control" id="nomormeja"placeholder="Masukkan nomor meja anda">
+      </div>
+       <br>
+      <button type="button"class="btn btn-submit" onclick="deliveryOrder()">Submit</button>
+   </form>
+   <div id="order-summary" class="mt-4" style="display: none;">
+     <h5>Summary Order</h5>
+     <p id="summaryText"></p>
+   </div>
+  </div>
+</div>
+
+<footer class="text-center text-white py-3" style="background-color : #c7a17a; margin-top: 20px;">
+   <p class="text-center text-white">Jl. Semarang Pusat No.26, Surabaya |📞 0812-3456-7890 | Instagram : @EndorphinsCafeSby </p>
+   <p class="text-center text-white">&copy; 2025 Endorphins Cafe. All rights reserved.</p>
+</footer>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>
