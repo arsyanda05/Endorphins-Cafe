@@ -50,9 +50,8 @@
       <div id="bag-delivery" style="display: none;">
          <label for="lokasi" class="form-label">Alamat</label>
          <input type="text" class="form-control" id="lokasi"placeholder="Masukkan alamat anda" >
-      </div>
 
-      <div class="mb-3">
+         <div class="mb-3">
          <label for="transaksi" class="form-label">Metode Pembayaran</label>
          <select class="form-select" id="transaksi" required>
           <option value="">Pilih Metode Pembayaran</option>
@@ -61,13 +60,15 @@
           <option value="E-wallet">E-wallet (Dana, OVO, GoPay, ShopeePay)</option>
          </select>
       </div>
+
+      </div>
       
       <div id="bag-dinein" style="display: none;">
          <label for="nomormeja" class="form-label">Nomor Meja</label>
          <input type="number" class="form-control" id="nomormeja"placeholder="Masukkan nomor meja anda">
       </div>
        <br>
-      <button type="button"class="btn btn-submit" onclick="deliveryOrder()">Submit</button>
+      <button type="button"class="btn btn-submit" onclick="Order(event)">Submit</button>
    </form>
    <div id="order-summary" class="mt-4" style="display: none;">
      <h5>Summary Order</h5>

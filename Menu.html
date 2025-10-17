@@ -37,6 +37,12 @@
        <div class="card-body text-center">
         <p class="card-text text-center" style="font-weight: bold;">Lotus Bicuit Cookies</p>
         <h5>Rp 27.000</h5>
+        <button class="btn" onclick="lihatDetail(
+          'Lotus Biscuit Cookies',
+          'img/lotus.webp',
+          'Cookies lembut dengan topping biscuit Lotus Karamel',
+          'Rp 27.000'
+        )">Lihat Detail</button>
         <a href="Order.html?menu=Lotus Bicuit Cookies"class="btn">Order Now</a>
        </div>
       </div>
@@ -47,7 +53,13 @@
         <div class="card-body text-center">
         <p class="card-text text-center" style="font-weight: bold;">Ginger-Chocolate Chunk Cookies</p>
         <h5>Rp 20.000</h5>
-        <a href="DeliveryOrder.html"class="btn">Order Now</a>
+        <button class="btn" onclick="lihatDetail(
+          'Ginger-Chocolate Chunk Cookies',
+          'img/Ginger-Chocolate-Chunk-Cookies-queens-1-of-1.jpg',
+          'Perpaduan jahe dan potongan cokelat pekat yang hangat dan unik.',
+          'Rp 20.000'
+        )">Lihat Detail</button>
+        <a href="Order.html?menu=Ginger-Chocolate Chunk Cookies"class="btn">Order Now</a>
         </div>
       </div>
     </div>
@@ -57,6 +69,12 @@
         <div class="card-body text-center">
           <p class="card-text text-center" style="font-weight: bold;">Monster Cookies</p>
           <h5>Rp 20.000</h5>
+          <button class="btn" onclick="lihatDetail(
+          'Monster Cookies',
+          'img/1740237984234-er65xd9g.webp',
+          'Cookies besar berisi campuran cokelat chip, oreo, dan crumble.',
+          'Rp 20.000'
+        )">Lihat Detail</button>
           <a href="Order.html?menu=Monster Cookies"class="btn">Order Now</a>
         </div>
       </div>
@@ -67,6 +85,12 @@
         <div class="card-body text-center">
         <p class="card-text text-center" style="font-weight: bold;">Redvelvet Cookies</p>
         <h5>Rp 23.000</h5>
+        <button class="btn" onclick="lihatDetail(
+          'Redvelvet Cookies',
+          'img/OIP (1).webp',
+          'Cookies besar dengan warna merah yang diberi glazzed cokelat putoh diatasnya sebagai pemanis.',
+          'Rp 23.000'
+        )">Lihat Detail</button>
         <a href="Order.html?menu=Redvelvet Cookies"class="btn">Order Now</a>
         </div>
       </div>
@@ -77,6 +101,12 @@
         <div class="card-body text-center">
         <p class="card-text text-center" style="font-weight: bold;">Brownie Cookies</p>
         <h5>Rp 25.000</h5>
+        <button class="btn" onclick="lihatDetail(
+          'Brownie Cookies',
+          'img/OIP (2).webp',
+          'Perpaduan tekstur chewy dan rasa cokelat pekat seperti brownie klasik.',
+          'Rp 25.000'
+        )">Lihat Detail</button>
         <a href="Order.html?menu=Brownie Cookies"class="btn">Order Now</a>
         </div>
       </div>
@@ -215,7 +245,7 @@
         <div class="card-body text-center">
         <p class="card-text text-center" style="font-weight: bold;">Rice with Fried Chicken and Balado Eggs</p>
         <h5>Rp 33.000</h5>
-        <a href="Order.html?menu=Riced with Fried Chicken and Balado Eggs"class="btn">Order Now</a>
+        <a href="Order.html?menu=Rice with Fried Chicken and Balado Eggs"class="btn">Order Now</a>
         </div>
       </div>
     </div>
@@ -286,6 +316,24 @@
       </div>
     </div>
   </div>
+</div>
+
+<div id="detail-box" style = " display: none; position: fixed; top: 50%; left: 50%;   transform:translate(-50%, -50%);
+  background:white;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.3);
+  z-index:1000;
+  text-align:center;
+  width:280px ;">
+   <img  id= "detail-img"src=""  style="width:100%; border-radius:8px; margin-bottom:15px;">
+   <p id="detail-nama" style="font-weight:bold; text-align: center;"></p>
+   <p id="detail-deskripsi"></p>
+   <h5 id="detail-harga"></h5>
+   <div>
+    <button  class = "btn" onclick="tutupDetail()">Tutup</button>
+    <a  class="btn" id="btnOrderNow" href="#">OrderNow</a>
+   </div>
 </div>
 
 <footer class="text-center text-white py-3" style="background-color : #c7a17a; margin-top: 20px;">

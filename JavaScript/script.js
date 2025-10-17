@@ -24,7 +24,7 @@ function pilihMetodeOrder(metode){
    metodeOrder = metode;
    document.getElementById('OrderForm').style.display ="block";
 
-   if(pilihMetodeOrder === "delivery"){
+   if(metodeOrder === "delivery"){
     document.getElementById('bag-delivery').style.display = "block";
     document.getElementById('bag-dinein').style.display = "none";
    } else {
@@ -34,13 +34,15 @@ function pilihMetodeOrder(metode){
 }
 
 //untuk  order
-function deliveryOrder(){
+function Order(event){
   var nama =document.getElementById('nama').value;
   var menu =document.getElementById('menu').value;
   var jumlah =document.getElementById('jumlah').value;
   var alamat =document.getElementById('lokasi').value;
   var pembayaran =document.getElementById('transaksi').value;
   var nomormeja = document.getElementById('nomormeja').value;
+
+  event.preventDefault();
 
   if(nama === ''|| menu ==='' || jumlah === ''){
     alert('Mohon segera lengkapi data diri anda!');
@@ -67,6 +69,22 @@ function deliveryOrder(){
 
   alert(hasil + "\nTerimakasih! Pesananmu akan segera kami proses.");
   document.getElementById('OrderForm').reset();
-  document.getElementById('OrderForm').style.display = "none";
   return false;
 }
+
+function lihatDetail(nama,gambar,deskripsi,harga){
+  document.getElementById('detail-img').src = gambar;
+  document.getElementById('detail-nama').innerText = nama;
+  document.getElementById('detail-deskripsi').innerText = deskripsi;
+  document.getElementById('detail-harga').innerText = harga;
+  document.getElementById('btnOrderNow').href = "Order.html?menu=" + encodeURIComponent(nama);
+  document.getElementById('detail-box').style.display = "block";
+}
+
+function tutupDetail(){
+  document.getElementById('detail-box').style.display = "none";
+}
+
+document.getElementById('DOMContentLoaded', function(){
+
+});

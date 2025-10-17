@@ -70,3 +70,18 @@ h5{
 .deliveryorder-section{
     padding: 20px;
 }
+.detail-box button, detail-box a {
+    cursor: pointer;
+}
+#detail-box{
+  height: 430px !important;
+}
+#detail-img{
+    height: 180px !important;
+    object-fit: cover !important;
+}
+#detail-deskripsi{
+    height: 50px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
