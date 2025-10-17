@@ -74,14 +74,12 @@ h5{
     cursor: pointer;
 }
 #detail-box{
-  height: 430px !important;
+  height: auto !important;
 }
 #detail-img{
     height: 180px !important;
     object-fit: cover !important;
 }
 #detail-deskripsi{
-    height: 50px !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
+    height: auto !important;
 }
