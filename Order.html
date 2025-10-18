@@ -28,8 +28,8 @@
   <div class="deliveryorder-section">
     <div class="mb-3 text-center">
       <label class="form-label">Pilih Metode Order</label><br>
-      <button type="button" class="btn btn-delivery" onclick="pilihMetodeOrder('delivery')">Delivery</button>
-      <button type="button" class="btn btn-dinein" onclick="pilihMetodeOrder('dinein')">Dine In</button>
+      <button type="button" class="btn btn-delivery" onclick="pilihMetodeOrder(event,'delivery')">Delivery</button>
+      <button type="button" class="btn btn-dinein" onclick="pilihMetodeOrder(event,'dinein')">Dine In</button>
     </div>
     <form id="OrderForm">
       <div class="mb-3">
@@ -40,11 +40,6 @@
       <div class="mb-3">
          <label for="menu" class="form-label">Menu yang Dipesan</label>
          <input type="text" class="form-control" id="menu"placeholder="Masukkan menu yang anda pesan"required>
-      </div>
-
-      <div class="mb-3">
-         <label for="jumlah" class="form-label">Jumlah</label>
-         <input type="number" class="form-control" id="jumlah" min="1" value= "1 "placeholder="Masukkan jumlah menu yang anda pesan"required>
       </div>
 
       <div id="bag-delivery" style="display: none;">
@@ -68,7 +63,7 @@
          <input type="number" class="form-control" id="nomormeja"placeholder="Masukkan nomor meja anda">
       </div>
        <br>
-      <button type="button"class="btn btn-submit" onclick="Order(event)">Submit</button>
+      <button type="button"class="btn btn-submit" onclick="submitOrder(event)">Submit</button>
    </form>
    <div id="order-summary" class="mt-4" style="display: none;">
      <h5>Summary Order</h5>
