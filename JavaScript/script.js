@@ -84,6 +84,7 @@ function submitOrder(event){
     var menu = document.getElementById('menu').value;
     var alamat = document.getElementById('lokasi').value;
     var pembayaran = document.getElementById('transaksi').value;
+    var nomormeja = document.getElementById('nomormeja').value;
 
     if(nama === '' || menu === ''){
         alert('Harap isi nama dan menu terlebih dahulu!');
