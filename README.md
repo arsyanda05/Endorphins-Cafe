@@ -13,22 +13,23 @@ Dibuat dengan meggunakan :
 5. About Us (About.html)
 
 ## Screenshot
-![Home](img-hasil-web/Screenshot%2025-10-19%201312.png)
-![Home](img-hasil-web/Screenshot%2025-10-19%201330.png)
-![Home](img-hasil-web/Screenshot%2025-10-19%201344.png)
+![Home](img-hasil-web/Home1.png)
+![Home](img-hasil-web/Home2.png)
+![Home](img-hasil-web/Home3.png)
 
-![Menu](img-hasil-web/Screenshot%2025-10-19%202212.png)
-![Menu](img-hasil-web/Screenshot%2025-10-19%202232.png)
-![Menu](img-hasil-web/Screenshot%2025-10-19%202253.png)
-![Menu](img-hasil-web/Screenshot%2025-10-19%202311.png)
-![Menu](img-hasil-web/Screenshot%2025-10-19%202325.png)
+![Menu](img-hasil-web/Menu1.png)
+![Menu](img-hasil-web/Menu2.png)
+![Menu](img-hasil-web/Menu3.png)
+![Menu](img-hasil-web/Menu4.png)
+![Menu](img-hasil-web/Menu5.png)
 
-![Order-Delivery](img-hasil-web/Screenshot%2025-10-19%202800.png)
-![Order-DineIn](img-hasil-web/Screenshot%2025-10-19%202815.png)
+![Order-Delivery](img-hasil-web/Delivery.png)
+![Order-DineIn](img-hasil-web/Dine_In.png)
 
-![Contact](img-hasil-web/Screenshot%2025-10-19%202953.png)
-![AboutUs](img-hasil-web/Screenshot%2025-10-19%203008.png)
-![AboutUs](img-hasil-web/Screenshot%2025-10-19%203021.png)
+![Contact](img-hasil-web/Contact.png)
+
+![AboutUs](img-hasil-web/AboutUs1.png)
+![AboutUs](img-hasil-web/AboutUs2.png)
 
 ## Video Presentasi
 [Klik di sini untuk menonton di YouTube]()
