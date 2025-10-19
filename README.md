@@ -16,13 +16,16 @@ Dibuat dengan meggunakan :
 ![Home](img-hasil-web/Screenshot 2025-10-19 201312.png)
 ![Home](img-hasil-web/Screenshot 2025-10-19 201330.png)
 ![Home](img-hasil-web/Screenshot 2025-10-19 201344.png)
+
 ![Menu](img-hasil-web/Screenshot 2025-10-19 202212.png)
 ![Menu](img-hasil-web/Screenshot 2025-10-19 202232.png)
 ![Menu](img-hasil-web/Screenshot 2025-10-19 202253.png)
 ![Menu](img-hasil-web/Screenshot 2025-10-19 202311.png)
 ![Menu](img-hasil-web/Screenshot 2025-10-19 202325.png)
+
 ![Order-Delivery](img-hasil-web/Screenshot 2025-10-19 202800.png)
 ![Order-DineIn](img-hasil-web/Screenshot 2025-10-19 202815.png)
+
 ![Contact](img-hasil-web/Screenshot 2025-10-19 202953.png)
 ![AboutUs](img-hasil-web/Screenshot 2025-10-19 203008.png)
 ![AboutUs](img-hasil-web/Screenshot 2025-10-19 203021.png)
