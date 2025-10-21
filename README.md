@@ -1,5 +1,5 @@
 # Website Endorphins Cafe 
-website ini dibuat untuk memberikan kemudahan baggi sejumlah orang untuk melakukan order makanan atau minuman di cafe, sehingga tidak perlu datang ke cafe secara langsung. Namun, tidak hanya memberikan layanan order delivery saja website ini juga menyediakan layanan dine in dimana mempermudah orang - orang yang ingin memesan tanpa harus antri sehingga mereka bisa order makanan dan minuman sekaligus diberikkan nomer meja sehingga hanya perlu kekasir untuk melakukan pembayaran saja.Mereka juga bisa memberikan kritik dan juga saran pada hamalan kontak yg telah disediakan pada website. Selain itu, pada website ini orang - orang bisa melihat sejarah mengenai Endorphins Cafe, best menu yang ada di Endorphins Cafe, kualitas,kenyamanan, serta hubungan kerjasamanya dan juga perjalanan dari tahun ketahun pada halaman about us.
+website ini dibuat untuk memberikan kemudahan bagi sejumlah orang untuk melakukan order makanan atau minuman di cafe, sehingga tidak perlu datang ke cafe secara langsung. Namun, tidak hanya memberikan layanan order delivery saja website ini juga menyediakan layanan dine in dimana mempermudah orang - orang yang ingin memesan tanpa harus antri sehingga mereka bisa order makanan dan minuman sekaligus diberikkan nomer meja sehingga hanya perlu kekasir untuk melakukan pembayaran saja.Mereka juga bisa memberikan kritik dan juga saran pada hamalan kontak yg telah disediakan pada website. Selain itu, pada website ini orang - orang bisa melihat sejarah mengenai Endorphins Cafe, best menu yang ada di Endorphins Cafe, kualitas,kenyamanan, serta hubungan kerjasamanya dan juga perjalanan dari tahun ketahun pada halaman about us.
 Dibuat dengan meggunakan :
 - HTML untuk struktur
 - CSS dengan framework bootstrap untuk memperindah tampilan website 
@@ -32,4 +32,4 @@ Dibuat dengan meggunakan :
 ![AboutUs](img-hasil-web/AboutUs2.png)
 
 ## Video Presentasi
-[Klik di sini untuk menonton di YouTube]()
+[Klik di sini untuk menonton di YouTube](https://youtu.be/g2rufVu0vvo?si=fE3-LLAgQdFkVSSK)
